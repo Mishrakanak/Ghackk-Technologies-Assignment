@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Solo Leveling",
+    "genre": "Action, Fantasy",
+    "description": "A weak hunter becomes the world's strongest after gaining a mysterious power.",
+    "image_url": "https://storage-url.com/solo-leveling.png"
+  },
+  {
+    "title": "Tower of God",
+    "genre": "Adventure, Fantasy",
+    "description": "A boy enters a mysterious tower to find his lost friend.",
+    "image_url": "https://storage-url.com/tower-of-god.png"
+  }
+]
+Using AWS FOR DEPLOYMENT
+sudo apt update
+sudo apt install nginx
+sudo apt install nodejs npm # if using Node.js
+sudo apt install python3-flask # if using Flask
+node app.jsconst { Pool } = require('pg'); // For PostgreSQL
+const pool = new Pool({
+  user: 'dbuser',
+  host: 'your-rds-endpoint',
+  database: 'manhwaDB',
+  password: 'yourpassword',
+  port: 5432,
+});
+
+
